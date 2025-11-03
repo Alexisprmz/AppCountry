@@ -1,0 +1,29 @@
+<div class="join">
+  <div>
+    <label class="input validator join-item">
+      <svg
+        class="h-[1em] opacity-50"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <g
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-width="2.5"
+          fill="none"
+          stroke="currentColor"
+        >
+          <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+        </g>
+      </svg>
+
+      <input
+        type="text"
+        [placeholder]="placeholder"
+        required
+      />
+    </label>
+    <div class="validator-hint hidden">Ingrese un valor válido</div>
+  </div>
+  <button class="btn btn-soft btn-primary">Buscar</button>
+</div>
